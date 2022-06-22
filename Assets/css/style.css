@@ -1,10 +1,85 @@
 /*Header */
 /*Nav*/
+nav {
+    background-color: white;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 40px;
+    margin-bottom: 5em;
+    margin-left: 5em;
+}
+
+nav li a {
+    color: black;
+    text-decoration: none;
+   font-weight: 900;
+    padding: 5px 20px;
+}
+
+nav li ul {
+    display: none;
+}
+
+.navigation-bar li ul li {
+    list-style: none;
+    padding: 5px 10px;
+    border: 1px solid #c4c4c4;
+}
+
+/*nav li ul li a{
+   
+}*/
+
+#signIn {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 800;
+    color: black
+}
+
+
+#signUp {
+    background-color: #822292;
+   border-radius: 2em;
+    padding: 10px 20px;
+    font-weight: 800;
+    color: white;
+}
+
+#landingimage {
+    border-radius: 10 10 10 10;
+    width: 600px;
+    height: 600px;
+}
+
+.landingtext {
+    padding-top: 15em;
+    place-items: center;
+}
 
 /* End of Header */
 
 /*Section Landing */
 
+div.landing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    place-content: center;
+}
+
+#treasure , #tyrion{
+    color: #822292;
+}
+ #h2 {
+         font-size: x-large;
+
+ }
 /*End Section Landing */
 
 /*Section Books Collection*/
