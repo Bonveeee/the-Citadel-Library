@@ -50,7 +50,7 @@ To use this repo on your machine requires some simple steps
 ### Figma Link
   This is a preview of the work i will be doing
 * Click this link to view the figma design https://www.figma.com/proto/vsZWiko1pvffWfVjWJQM8N/the-Citadel?node-id=2%3A3&scaling=scale-down&page-id=0%3A1
- ![login](https://github.com/Bonveeee/the-Citadel-Library/blob/main/Assets/css/images/figmadesign.png?raw=true)
+ ![login](https://github.com/Bonveeee/the-Citadel-Library/blob/main/Assets/images/figmadesign.png?raw=true)
 
 ### Technology  Used
 
