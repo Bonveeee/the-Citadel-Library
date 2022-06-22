@@ -89,7 +89,7 @@ SOFTWARE.
 ## Authors Info
 
 Gmail - 
-        [Myemail](bonochieng@gmail.com)
+        [My-Email](bonochieng@gmail.com)
 Twitter -
         [Bonveeee](https://twitter.com/bonveeee)
 
