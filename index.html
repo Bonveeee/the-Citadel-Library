@@ -1,69 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Actor&family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Actor&family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./Assets/css/style.css" />
     <title>theCitade Library</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!--Header -->
     <!--Navigation bar -->
     <nav>
-      <li><a href="#">About Us</a></li>
-      <li><a href="#">Collections</a></li>
-      <li><a href="#">Community</a></li>
-      <li><a href="#">Contacts</a></li>
-      <button id="signIn">SIGN IN</button>
-      <button id="signUp">SIGN UP</button>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Contacts</a></li>
+        <button id="signIn">SIGN IN</button>
+        <button id="signUp">SIGN UP</button>
     </nav>
 
     <!--End of Header-->
 
     <!-- Landing Section -->
     <div class="landing">
-      <div class="landingtext">
-        <h2 id="h2">
-          Discover<br />
-          The Books<span id="treasure"> Treasure</span> <br /><br />
-          “A mind needs books as a sword needs a whetstone, if it is to keep its
-          edge.”<br /><br />
-          <span id="tyrion">Tyrion Lannister</span>
-        </h2>
-      </div>
-      <img
-        id="landingimage"
-        src="./Assets/images/phoneunsplash.png"
-        alt="ebook"
-      />
+        <div class="landingtext">
+            <h2 id="h2">
+                Discover<br />
+                The Books<span id="treasure"> Treasure</span> <br /><br />
+                “A mind needs books as a sword needs a whetstone, if it is to keep its
+                edge.”<br /><br />
+                <span id="tyrion">Tyrion Lannister</span>
+            </h2>
+        </div>
+        <img id="landingimage" src="./Assets/images/phoneunsplash.png" alt="ebook" />
     </div>
 
     <!--End Landing Section -->
 
     <!--Books Collection Section -->
+    <h1 id="titlebooksection"></h1>-->
+    <div class="bookscollection">
+        <div><img id="coverimage" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+    </div>
+<div class="btnMore"><button id="btnMore">More</button></div></div>
+
 
     <!-- Books Collection End Section -->
 
     <!--Footer -->
     <!-- Contact Us-->
-
+    <footer>        
+        <form action="" class="footer">
+            <h2 id="h2footer">Contact Us</h2>
+            <div class="name-email">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email"  id="email">
+                </div>
+            </div>
+            <div class="message-container">              
+                  <textarea name="message" placeholder="Message Us" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div class="button-footer">
+                <button>Send message</button>
+            </div>
+    
+        </form>
+        </section></footer>
+    
     <!-- End Footer-->
     <!-- -->
 
     <script src="./Assets/src/index.js"></script>
-  </body>
+</body>
+
 </html>
