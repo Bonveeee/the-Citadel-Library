@@ -13,6 +13,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
 // Books Collection Section -->
 const h1 = document.getElementById("titlebooksection");
 h1.textContent = "BOOKS IN STORE";
+
 //document.body.appendChild('h1');   //has a bug
 
 const url = "https://gutendex.com/books/";
@@ -31,7 +32,7 @@ function getAllBooks() {
 
       for(let i=0;i<results.results.length; i++){
         let img = document.querySelector("#coverimage");
-        img.src = results.results[1].formats["image/jpeg"];
+        img.src = results.results[21].formats["image/jpeg"];
 
         let img1 = document.querySelector("#coverimage1");
         img1.src = results.results[2].formats["image/jpeg"];
@@ -52,7 +53,7 @@ function getAllBooks() {
         img6.src = results.results[9].formats["image/jpeg"];
 
         let img7 = document.querySelector("#coverimage7");
-        img7.src = results.results[10].formats["image/jpeg"];
+        img7.src = results.results[8].formats["image/jpeg"];
 
         console.log(results.results[0].formats["image/jpeg"])
       }
