@@ -186,7 +186,7 @@ label {
   font-size: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
-  cursor:cell;
+  cursor:pointer;
   transition: all 0.3s ease-in-out;
   color: white;
   border-radius: 0.375rem;
