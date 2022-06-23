@@ -45,11 +45,15 @@
 
     <!--Books Collection Section -->
     <h1 id="titlebooksection"></h1>-->
-    <div class="bookscollection">
+    <div class="bookscollection"  id="books">
         <div><img id="coverimage" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div><img id="coverimage" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div><img id="coverimage" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div><img id="coverimage" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage1" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage2" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage3" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage4" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage5" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage6" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div><img id="coverimage7" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
     </div>
 <div class="btnMore"><button id="btnMore">More</button></div></div>
 
@@ -64,7 +68,7 @@
             <div class="name-email">
                 <div>
                     <label for="name">Name</label>
-                    <input type="text" id="name">
+                    <input type="text" id="name" required maxlength="45">
                 </div>
                 <div>
                     <label for="email">Email</label>
@@ -72,10 +76,10 @@
                 </div>
             </div>
             <div class="message-container">              
-                  <textarea name="message" placeholder="Message Us" id="message" cols="30" rows="10"></textarea>
+                  <textarea placeholder="Message Us" id="message" cols="30" rows="10"></textarea>
             </div>
             <div class="button-footer">
-                <button>Send message</button>
+                <button id="send">Send message</button>
             </div>
     
         </form>
