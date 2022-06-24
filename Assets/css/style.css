@@ -38,6 +38,12 @@ nav li ul {
   padding: 5px 10px;
   border: 1px solid #c4c4c4;
 }
+@media screen and (max-width: 800px) {
+  nav {
+    display: block;
+   margin-bottom: 12em;
+  }
+}
 
 /*nav li ul li a{
    
@@ -58,6 +64,8 @@ nav li ul {
   font-weight: 800;
   color: white;
 }
+ 
+
 
 #landingimage {
   border-radius: 10 10 10 10;
@@ -70,11 +78,7 @@ nav li ul {
   place-items: center;
 }
 
-@media screen and (min-width: 859px) {
-  .landingtext #landingimage {
-    display: block;
-  }
-}
+
 
 /* End of Header */
 
@@ -107,6 +111,12 @@ div.landing {
   font-weight: 900;
 }
 
+@media screen and (max-width: 800px) {
+  .landingimage .landingtext {
+    display: block;
+    flex-direction:column;
+  }
+}
 /*End Section Landing */
 
 /*Section About*/
@@ -143,7 +153,6 @@ div > #abouttext > h1 {
   font-size: x-large;
   color: #822292;
 }
-
 @media screen and (max-width: 800px) {
   .about {
     display: block;
