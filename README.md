@@ -3,6 +3,7 @@
  ## Table of Content
  - [Description](#description)
  - [Features](#features)
+ - [Installations](#installations)
  - [Technology  Used](#technology-Used)
  - [Licence](#licence)
  - [Authors Info](#Authors-Info)
@@ -58,12 +59,15 @@ To use this repo on your machine requires some simple steps
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
 * JavaScript for Async interactivity
+
 [Go Back to the top](#the-Citadel-Library)
 
 ## Known Bugs
 * 
 * 
-
+## Future updates
+* check on responsiveness 
+* fetch more data and get more tests
 ## MIT License
 
 Copyright (c) [2022] [the-Citadel-Library] 
