@@ -24,7 +24,7 @@ function parseResponse(response) {
 function getAllBooks() {
   fetch(url)
     .then(parseResponse)
-    .then((results) => { console.log(results.results[0].formats["image/jpeg"])
+    .then((results) => { console.log(results.results[2].authors[0].name)
        
     // results.forEach(function(results) {
     //     console.log(results.results[0].formats["image/jpeg"]);
@@ -33,6 +33,8 @@ function getAllBooks() {
       for(let i=0;i<results.results.length; i++){
         let img = document.querySelector("#coverimage");
         img.src = results.results[21].formats["image/jpeg"];
+
+
 
         let img1 = document.querySelector("#coverimage1");
         img1.src = results.results[2].formats["image/jpeg"];
@@ -55,20 +57,52 @@ function getAllBooks() {
         let img7 = document.querySelector("#coverimage7");
         img7.src = results.results[8].formats["image/jpeg"];
 
+
+
+        let title = document.querySelector("#author");
+        title.textContent = results.results[2].authors[0].name 
+
+        let title1 = document.querySelector("#author2");
+        title1.textContent = results.results[7].authors[0].name
+
+        let title2 = document.querySelector("#author3");
+        title2.textContent = results.results[3].authors[0].name
+
+        let title3 = document.querySelector("#author4");
+        title3.textContent = results.results[25].authors[0].name
+
+        let title4 = document.querySelector("#author5");
+        title4.textContent = results.results[15].authors[0].name
+
+        let title5 = document.querySelector("#author6");
+        title5.textContent = results.results[9].authors[0].name
+
+        let title6 = document.querySelector("#author7");
+        title6.textContent = results.results[8].authors[0].name
+
+
         console.log(results.results[0].formats["image/jpeg"])
       }
-    
+    // function showError(error){
+    //   let error = document.querySelector("#error");
+    //   error.textContent=error.message;
+    // }
    });
    }
 getAllBooks();
+const element = document.getElementById("btnBookInfo");
+element.addEventListener("click", myFunction);
 
+function myFunction() {
+  document.getElementById("title").textContent = "see below";
+}
 //  Books Collection End Section -->
 
 // Footer -->
 //  Contact Us-->
 
 let submit = document.getElementById("send");
-submit.addEventListener("click", (e) => {
+submit.addEventListener("submit", (e) => {
     e.preventDefault();
   alert("Thank You!");
 });
