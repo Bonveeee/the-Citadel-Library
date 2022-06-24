@@ -106,7 +106,7 @@ function myFunction() {
 //  Contact Us-->
 
 let submit = document.getElementById("send");
-submit.addEventListener("submit", (e) => {
+submit.addEventListener("click", (e) => {
   e.preventDefault();
   alert("Thank You!");
 });

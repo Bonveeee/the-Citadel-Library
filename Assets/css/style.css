@@ -69,7 +69,7 @@ nav li ul {
 
 #landingimage {
   border-radius: 10 10 10 10;
-  width: 45em;
+  width: 40em;
   height: 40em;
 }
 
@@ -123,29 +123,29 @@ div.landing {
 .about {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 2em;
+  gap: 1em;
   margin-top: 5em;
   margin-left: 5em;
   margin-right: 5em;
   border-radius: 1px solid black;
   min-width: 30em;
-  min-height: 30em;
+  min-height: 25em;
 }
 
 div > #imgaboutsect {
-  width: 100%;
-  height: 50em;
+  width: 90%;
+  height: 35em;
   border-radius: 5em;
 }
 
 div > #abouttext {
-  padding: 10em 5em;
+  padding: 1em 3em;
   font-size: larger;
   line-height: 2em;
 }
 
 div > #abouttext > h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
@@ -164,7 +164,7 @@ div > #abouttext > h1 {
 /*Section Books Collection*/
 #titlebooksection {
   text-align: center;
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .bookscollection {
@@ -207,7 +207,7 @@ div > #abouttext > h1 {
 #btnBookInfo {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
-  padding: 10px 20px;
+  padding: 5px 5px;
   color: white;
   background-color: #822292;
 }
@@ -216,9 +216,9 @@ div > #abouttext > h1 {
   background-color: #822292;
   border: none;
   color: white;
-  padding: 0.5rem 0.5rem;
+  padding: 5px 5px;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
   margin-top: 1em;
   border-radius: 5px;
 }
@@ -238,6 +238,8 @@ footer {
   align-items: center;
   margin-top: 2em;
   background-color: rgb(17, 9, 9, 0.9);
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 .footer {
