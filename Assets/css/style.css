@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "poppins";
+  font-family: "poppins" , "josefins";
 }
 
 /*Header */
@@ -121,29 +121,35 @@ div.landing {
   min-width: 30em;
   min-height: 30em;
 }
+
 div > #imgaboutsect {
   width: 100%;
   height: 50em;
   border-radius: 5em;
 }
+
 div > #abouttext {
   padding: 10em 5em;
   font-size: larger;
   line-height: 2em;
 }
+
 div > #abouttext > h1 {
   margin-bottom: 2rem;
   text-align: center;
 }
+
 #citadel {
   font-size: x-large;
   color: #822292;
 }
+
 @media screen and (max-width: 800px) {
-    .about {
-      display: block;
-    }
+  .about {
+    display: block;
   }
+}
+
 /*End Section About*/
 
 /*Section Books Collection*/
@@ -193,26 +199,26 @@ div > #abouttext > h1 {
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
   padding: 10px 20px;
-   color: white;
+  color: white;
   background-color: #822292;
 }
 
-
 .btn {
-    background-color: #822292;
-    border: none;
-    color: white;
-    padding: 0.5rem 0.5rem;
-    cursor: pointer;
-    font-size: 20px;
-    margin-top: 1em;
-    border-radius: 5px;
-  }
-  
-  /* Darker background on mouse-over */
-  .btn:hover {
-    background-color: black;
-  }
+  background-color: #822292;
+  border: none;
+  color: white;
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 1em;
+  border-radius: 5px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: black;
+}
+
 /*End Section Books Collection */
 
 /*Footer */
@@ -282,16 +288,16 @@ label {
   margin-top: 1rem;
 }
 
-.fa-stack, #follow{
-    color: #c4c4c4;
-    font-size: x-large;
-    align-items: center;
+.fa-stack,
+#follow {
+  color: #c4c4c4;
+  font-size: x-large;
+  align-items: center;
 }
 
-#contactfollow{
-    display: block;
+#contactfollow {
+  display: block;
 }
-
 
 @media screen and (max-width: 767px) {
   .footer .name-email {

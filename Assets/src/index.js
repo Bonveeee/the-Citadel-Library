@@ -21,16 +21,18 @@ const url = "https://gutendex.com/books/";
 function parseResponse(response) {
   return response.json();
 }
+
 function getAllBooks() {
   fetch(url)
     .then(parseResponse)
-    .then((results) => { console.log(results.results[2].authors[0].name)
-       
-    // results.forEach(function(results) {
-    //     console.log(results.results[0].formats["image/jpeg"]);
-    // });
+    .then((results) => {
+      console.log(results.results[2].formats["application/x-mobipocket-ebook"])
 
-      for(let i=0;i<results.results.length; i++){
+      // results.forEach(function(results) {
+      //     console.log(results.results[0].formats["image/jpeg"]);
+      // });
+
+      for (let i = 0; i < results.results.length; i++) {
         let img = document.querySelector("#coverimage");
         img.src = results.results[21].formats["image/jpeg"];
 
@@ -60,7 +62,7 @@ function getAllBooks() {
 
 
         let title = document.querySelector("#author");
-        title.textContent = results.results[2].authors[0].name 
+        title.textContent = results.results[2].authors[0].name
 
         let title1 = document.querySelector("#author2");
         title1.textContent = results.results[7].authors[0].name
@@ -80,15 +82,17 @@ function getAllBooks() {
         let title6 = document.querySelector("#author7");
         title6.textContent = results.results[8].authors[0].name
 
+        let download1 = document.querySelector(".btn");
+        download1.src = results.results[2].formats["application/x-mobipocket-ebook"]
 
         console.log(results.results[0].formats["image/jpeg"])
       }
-    // function showError(error){
-    //   let error = document.querySelector("#error");
-    //   error.textContent=error.message;
-    // }
-   });
-   }
+      // function showError(error){
+      //   let error = document.querySelector("#error");
+      //   error.textContent=error.message;
+      // }
+    });
+}
 getAllBooks();
 const element = document.getElementById("btnBookInfo");
 element.addEventListener("click", myFunction);
@@ -103,7 +107,7 @@ function myFunction() {
 
 let submit = document.getElementById("send");
 submit.addEventListener("submit", (e) => {
-    e.preventDefault();
+  e.preventDefault();
   alert("Thank You!");
 });
 
