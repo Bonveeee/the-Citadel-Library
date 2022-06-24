@@ -17,10 +17,10 @@
     <!--Header -->
     <!--Navigation bar -->
     <nav>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Collections</a></li>
+        <li><a href="#abouttext">About Us</a></li>
+        <li><a href="#books">Collections</a></li>
         <li><a href="#">Community</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li><a href="#h2footer">Contacts</a></li>
         <button id="signIn">SIGN IN</button>
         <button id="signUp">SIGN UP</button>
     </nav>
@@ -31,10 +31,10 @@
     <div class="landing">
         <div class="landingtext">
             <p id="h2">
-                Discover<br/>
-                The Books <span id="treasure">Treasure</span> <br/><br />
+                Discover<br />
+                The Books <span id="treasure">Treasure</span> <br /><br />
                 “A mind needs books as a sword needs a whetstone, if it is to keep its
-                edge.”<br/><br/>
+                edge.”<br /><br />
                 <span id="tyrion">Tyrion Lannister</span>
             </p>
         </div>
@@ -43,24 +43,39 @@
 
     <!--End Landing Section -->
 
+    <!-- about section -->
+
+    <div class="about">
+        <div><img id="imgaboutsect" src="./Assets/images/tyrion.jpg" alt=""></div>
+        <div id="abouttext">
+            <h1>About Us</h1>
+            <p>Welcome to the <span id="citadel">Citadel.</span> </p>
+            <p>Inspired by Tyrion Lannister, the Citadel library is a library of over 1000 eBooks.
+            Choose among free epub and Kindle eBooks, download them or read them online.You will find the world’s great literature here, with focus on older works for which U.S. copyright has expired.
+                 <br> Thousands of volunteers digitized and diligently proofread the eBooks, for you to enjoy.</p>
+        </div>
+    </div>
+
+    <!-- about section -->
+
     <!--Books Collection Section -->
     <h1 id="titlebooksection"></h1>-->
-    <div class="bookscollection  snaps-inline"  id="books">
-        <div class="mediaimg"><img id="coverimage" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div class="mediaimg"><img id="coverimage1" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div class="mediaimg"><img id="coverimage2" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div class="mediaimg"><img id="coverimage3" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div class="mediaimg"><img id="coverimage4" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div class="mediaimg"><img id="coverimage5" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div class="mediaimg"><img id="coverimage6" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
-        <div class="mediaimg"><img id="coverimage7" width="200" height="300" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+    <div class="bookscollection  snaps-inline" id="books">
+        <div class="mediaimg"><img id="coverimage" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div class="mediaimg"><img id="coverimage1" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div class="mediaimg"><img id="coverimage2" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div class="mediaimg"><img id="coverimage3" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div class="mediaimg"><img id="coverimage4" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div class="mediaimg"><img id="coverimage5" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div class="mediaimg"><img id="coverimage6" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
+        <div class="mediaimg"><img id="coverimage7" src="" alt=""><br><button id="btnBookInfo">Book Info</button></div>
     </div>
 
     <!-- Books Collection End Section -->
 
     <!--Footer -->
     <!-- Contact Us-->
-    <footer>        
+    <footer>
         <form action="" class="footer">
             <h2 id="h2footer">Contact Us</h2>
             <div class="name-email">
@@ -70,19 +85,20 @@
                 </div>
                 <div>
                     <label for="email">Email</label>
-                    <input type="email"  id="email">
+                    <input type="email" id="email">
                 </div>
             </div>
-            <div class="message-container">              
-                  <textarea placeholder="Message Us" id="message" cols="30" rows="10"></textarea>
+            <div class="message-container">
+                <textarea placeholder="Message Us" id="message" cols="30" rows="10"></textarea>
             </div>
             <div class="button-footer">
                 <button id="send">Send message</button>
             </div>
-    
+
         </form>
-        </section></footer>
-    
+        </section>
+    </footer>
+
     <!-- End Footer-->
     <!-- -->
 
